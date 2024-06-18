@@ -17,4 +17,10 @@ npx tsc --init // ativa as configurações
 
 npm i graphql apollo-server // instalar graphql e apollo
 
+// configurar o simple-server
+
+npm run dev:simple // rodar o projeto no modo dev
+
+npm i uuid // Para gerar IDs únicos
+
 ```
