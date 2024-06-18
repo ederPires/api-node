@@ -11,6 +11,18 @@ import { v4 as uuidv4 } from 'uuid'; // Para gerar IDs únicos
  * Rota HTTP retorna mais dados do que precisamos
  */
 
+/**
+ * Schema first approach
+ * primeira coisa meche no schema, depois vai no código e cria os resolvers
+ *
+ * Existe outra abordagem 📖
+ *
+ * Code first:
+ * - o schema é criado de forma automática com base no código feito
+ * - próxima etapa utilizar code first com typegraphql e apollo serve
+ *
+ */
+
 //rotas e retornos
 const typeDefs = gql `
   type User {

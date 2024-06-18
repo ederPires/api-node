@@ -4,7 +4,8 @@
   "description": "criando api com node e apollo",
   "main": "index.js",
   "scripts": {
-    "dev:simple": "tsnd --respawn --transpile-only simple-server.ts"
+    "dev:simple": "tsnd --respawn --transpile-only simple-server.ts",
+    "dev": "tsnd --respawn --transpile-only src/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,9 @@
   "dependencies": {
     "apollo-server": "^3.13.0",
     "graphql": "^16.8.2",
+    "graphql-scalars": "^1.23.0",
+    "reflect-metadata": "^0.2.2",
+    "type-graphql": "^2.0.0-rc.1",
     "uuid": "^10.0.0"
   }
 }
